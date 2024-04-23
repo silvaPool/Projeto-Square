@@ -28,7 +28,7 @@ function SecaoUm() {
             src={PC}
             alt="Imagem de um PC"
             className="img"
-            width={"1300x"}
+            width={"1300px"}
             height={"700px"}
           />
         </Box>
