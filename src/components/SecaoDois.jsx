@@ -1,7 +1,7 @@
 function SecaoDois() {
     return (
         <div>
-            Silvaaaaaaaaaaaaa
+            Aqui fica a segunda seção
         </div>
     )
 }
