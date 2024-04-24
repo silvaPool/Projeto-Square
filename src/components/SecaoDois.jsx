@@ -1,36 +1,66 @@
-import { Box, Stack, Typography } from "@mui/material";
-import * as React from "react";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
+import { Box, Grid, Typography } from "@mui/material";
 import Gamer from "../assets/images/pc.jpg";
 
 function SecaoDois() {
   return (
     <Box
       sx={{
-        border: "1px solid green",
-        height: "200vh",
-        width: "80%",
+        width: "100%",
+        height: "90vh",
+        border: "1px solid red",
         margin: "0 auto",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
+        padding: "15px",
       }}
     >
-      <Stack sx={{border: '1px solid red', marginBottom: '3rem', width: '85%', height: '80vh', display: 'flex', flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center'}}>
-        <Box>
-            <Typography>
-            A Square lidera a revolução tecnológica, trazendo o futuro até você hoje
-            </Typography>
-        </Box>
-        <Box>
-            sdkjdjadjajdf
-        </Box>
-      </Stack>
-      <Box>dsfsdfsdfsdfsdf</Box>
-      <Box>dsfsdfsdfsdfsdf</Box>
-      <Box>dsfsdfsdfsdfsdf</Box>
+      <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+        <Grid item xs={6}>
+          <Typography
+            sx={{
+              fontSize: "75px",
+              fontWeight: "600",
+              textAlign: "left",
+              marginBottom: "60px",
+              lineHeight: "88px",
+            }}
+          >
+            Explorando o Poder da Tecnologia
+          </Typography>
+        </Grid>
+        <Grid item xs={6}></Grid>
+        <Grid item xs={6}>
+          <img src={Gamer} alt="Logo" width={"400px"} className="loginho" />
+        </Grid>
+        <Grid item xs={6} sx={{ fontSize: "24px" }}>
+          <Typography
+            sx={{
+              fontSize: "24px",
+              lineHeight: "32px",
+              textAlign: "start",
+              paddingBottom: "6px",
+              letterSpacing: "-0.48px",
+            }}
+          >
+            Na Square, não apenas vendemos computadores e periféricos -
+            entregamos portais para mundos digitais incríveis. Nossa missão é
+            capacitar você a explorar o poder da tecnologia, desbloqueando
+            possibilidades ilimitadas para criatividade, produtividade e
+            entretenimento. Entre na próxima geração da inovação conosco!
+          </Typography>
+          <Typography
+            sx={{
+              fontSize: "24px",
+              lineHeight: "32px",
+              textAlign: "start",
+              paddingBottom: "6px",
+              letterSpacing: "-0.48px",
+            }}
+          >
+            Our strength lies in challenging fundamental assumptions, unraveling
+            entrenched behaviors, simplifying intricate processes, and crafting
+            impactful products and services that enhance the lives of millions.
+          </Typography>
+        </Grid>
+      </Grid>
     </Box>
   );
 }
