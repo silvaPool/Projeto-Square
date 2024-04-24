@@ -9,18 +9,20 @@ function SecaoDois() {
         height: "90vh",
         border: "1px solid red",
         margin: "0 auto",
-        padding: "15px",
+        padding: "25px",
+        marginBottom: '60px',
       }}
     >
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={6}>
           <Typography
             sx={{
-              fontSize: "75px",
+              fontSize: "45px",
               fontWeight: "600",
               textAlign: "left",
               marginBottom: "60px",
               lineHeight: "88px",
+              fontFamily: "Cinzel",
             }}
           >
             Explorando o Poder da Tecnologia
@@ -38,13 +40,12 @@ function SecaoDois() {
               textAlign: "start",
               paddingBottom: "6px",
               letterSpacing: "-0.48px",
+              fontFamily: "Montserrat",
+              marginBottom: "5px",
             }}
           >
             Na Square, não apenas vendemos computadores e periféricos -
-            entregamos portais para mundos digitais incríveis. Nossa missão é
-            capacitar você a explorar o poder da tecnologia, desbloqueando
-            possibilidades ilimitadas para criatividade, produtividade e
-            entretenimento. Entre na próxima geração da inovação conosco!
+            entregamos portais para mundos digitais incríveis.
           </Typography>
           <Typography
             sx={{
@@ -55,9 +56,10 @@ function SecaoDois() {
               letterSpacing: "-0.48px",
             }}
           >
-            Our strength lies in challenging fundamental assumptions, unraveling
-            entrenched behaviors, simplifying intricate processes, and crafting
-            impactful products and services that enhance the lives of millions.
+            Nossa missão é capacitar você a explorar o poder da tecnologia,
+            desbloqueando possibilidades ilimitadas para criatividade,
+            produtividade e entretenimento. Entre na próxima geração da inovação
+            conosco!
           </Typography>
         </Grid>
       </Grid>
