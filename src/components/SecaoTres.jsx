@@ -3,9 +3,7 @@ import { Box, Button, Stack, Typography } from "@mui/material";
 function SecaoTres() {
   return (
     <Box
-     
       sx={{
-        border: "1px solid red",
         margin: "0 auto",
         textAlign: "center",
         width: "80vw",

@@ -7,7 +7,6 @@ function SecaoDois() {
       sx={{
         width: "100%",
         height: "90vh",
-        border: "1px solid red",
         margin: "0 auto",
         padding: "25px",
         marginBottom: '60px',
@@ -54,6 +53,7 @@ function SecaoDois() {
               textAlign: "start",
               paddingBottom: "6px",
               letterSpacing: "-0.48px",
+              fontFamily: "Montserrat",
             }}
           >
             Nossa missão é capacitar você a explorar o poder da tecnologia,
