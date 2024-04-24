@@ -34,7 +34,7 @@ function SecaoUm() {
         </Box>
       </Box>
 
-      <Box sx={{border: '1px solid red'}}>
+      <Box>
         <Typography sx={{ fontSize: "25px", fontFamily: "Montserrat", lineHeight: '42px', letterSpacing: '0.721px' }}>
           Descubra o que o futuro da tecnologia reserva para você com a Square.
           Oferecemos uma ampla variedade de computadores e periféricos de ponta

@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import Jogador from "../assets/images/jogador.jpg";
 
 function SecaoQuatro() {
@@ -23,7 +23,7 @@ function SecaoQuatro() {
 
       <Box sx={{textAlign: 'center', padding: '20px'}}>
         <Typography sx={{fontFamily: "Cinzel", fontSize: "55px", marginTop: '15px'}}>Jogue como um PRO</Typography>
-        <Typography sx={{fontFamily: "Montserrat", fontSize: "30px"}}>Entre em Contato</Typography>
+        <Button variant="outlined">Entre em contato</Button>
       </Box>
     </Box>
   );
