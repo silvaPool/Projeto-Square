@@ -1,41 +1,54 @@
 import { Box, Stack, Typography } from "@mui/material";
 import PC from "../assets/images/pc.jpg";
+import Icon from "../assets/images/icoos.png";
 
 function SecaoUm() {
   return (
     <Stack
       spacing={2}
+      className="container"
       sx={{
-      
-        height: "180vh",
+        height: "110vh",
         textAlign: "center",
         padding: "25px",
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "start",
       }}
     >
       <Box>
         <Typography
           sx={{
-            fontSize: "35px",
+            fontSize: "90px",
             fontFamily: "Cinzel",
             lineHeight: "106px",
-            letterSpacing: "5.6px",
+            letterSpacing: "normal",
+            textAlign: "start",
           }}
         >
-          Explore o Futuro da Tecnologia com a Square
+          <span style={{ color: "#999999" }}>Explore</span> o{" "}
+          <span style={{ color: "#999999" }}> Futuro </span>da{" "}
+          <span style={{ color: "#999999" }}> Tecnologia </span>com a{" "}
+          <span style={{ color: "#999999" }}> Square </span>
         </Typography>
-        <Box sx={{marginBottom: '3rem'}}>
-          <img
-            src={PC}
-            alt="Imagem de um PC"
-            className="img"
-            width={"1300px"}
-            height={"700px"}
-          />
-        </Box>
       </Box>
 
-      <Box>
-        <Typography sx={{ fontSize: "25px", fontFamily: "Montserrat", lineHeight: '42px', letterSpacing: '0.721px' }}>
+      <Box
+        sx={{
+          position: "relative",
+          top: "25%",
+          width: "100vw",
+        }}
+      >
+        <Typography
+          sx={{
+            fontSize: "24px",
+            fontFamily: "Montserrat",
+            lineHeight: "42px",
+            letterSpacing: "0.721px",
+          }}
+        >
           Descubra o que o futuro da tecnologia reserva para você com a Square.
           Oferecemos uma ampla variedade de computadores e periféricos de ponta
           para impulsionar a sua produtividade, criatividade e entretenimento.

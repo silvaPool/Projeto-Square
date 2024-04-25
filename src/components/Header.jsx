@@ -13,7 +13,7 @@ function Header() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ textAlign: "center", padding: '5px', background: '#0b1419' }}>
         <Box>
-          <img src={Logo} alt="Logo do site" width={"60px"} />
+          <img src={Logo} alt="Logo do site" width={"90px"} />
         </Box>
       </AppBar>
     </Box>
