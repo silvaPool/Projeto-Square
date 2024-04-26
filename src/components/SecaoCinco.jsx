@@ -3,8 +3,8 @@ import { Box } from "@mui/material";
 function SecaoCinco() {
   return (
     <>
-      <Box sx={{ width: '50vw', margin: '0 auto'}}>
-        <div class="form-container">
+      <Box sx={{ width: '100%', height: '75vh', padding: '55px'}}>
+        <div class="form-container" style={{margin: '0 auto'}}>
           <div class="form">
             <span class="heading">Pronto para levar seu setup para o próximo nível?</span>
             <input placeholder="Name" type="text" class="input" />
